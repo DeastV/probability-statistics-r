@@ -153,14 +153,10 @@ Rscript simulations/goodness_of_fit.R
 
 ---
 
-## Author
+## Author & Acknowledgments
 
 - **David Vasques** ([@DeastV](https://github.com/DeastV))
 
-Course project developed for Probabilidade e Estatística (PE), Instituto Superior Técnico, Universidade de Lisboa.
+Coursework project developed for Probabilidade e Estatística (PE), Instituto Superior Técnico, Universidade de Lisboa.
 
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+*Course-Provided Datasets & Parameters:* Reference datasets (`data/hcvdat0.csv`, `data/Petroleum&OtherLiquidFuels.txt`, `data/Jobs_and_Growth.csv`, `data/Modular_P800.txt`) and specific sampling parameters ($n = 336, M = 153$, simulation random seeds) were provided by the PE teaching faculty. The MIT License applies to the R analysis scripts, statistical transformations, ggplot2 visualizations, and Monte Carlo simulation routines.
