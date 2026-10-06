@@ -1,8 +1,12 @@
 # Statistical Computing, Monte Carlo Simulations, and Data Analysis in R
 
+[![Language](https://img.shields.io/badge/Language-R-blue.svg)](https://www.r-project.org/)
+[![Visualization](https://img.shields.io/badge/Visualization-ggplot2-green.svg)](https://ggplot2.tidyverse.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Statistical computing repository containing exploratory data analysis workflows with `ggplot2` alongside computational statistical inference, Monte Carlo simulations, and parametric estimation implemented in R.
 
-Developed as part of the Probabilidade e Estatística (PE) curriculum at Instituto Superior Técnico (IST), Universidade de Lisboa.
+Developed as part of the **Probabilidade e Estatística (PE)** curriculum at **Instituto Superior Técnico (IST), Universidade de Lisboa**.
 
 ---
 
@@ -153,10 +157,14 @@ Rscript simulations/goodness_of_fit.R
 
 ---
 
-## Author & Acknowledgments
+## Known Limitations
 
-- **David Vasques** ([@DeastV](https://github.com/DeastV))
+* **Parameter Assignment Coupling:** Random number seeds, replication counts ($M = 153$), and sample sizes ($n = 336$) are hardcoded according to individual group assignment specifications.
+* **Working Directory Dependency:** Analysis and simulation scripts resolve file paths assuming execution from the repository root directory.
 
-Coursework project developed for Probabilidade e Estatística (PE), Instituto Superior Técnico, Universidade de Lisboa.
+---
 
-*Course-Provided Datasets & Parameters:* Reference datasets (`data/hcvdat0.csv`, `data/Petroleum&OtherLiquidFuels.txt`, `data/Jobs_and_Growth.csv`, `data/Modular_P800.txt`) and specific sampling parameters ($n = 336, M = 153$, simulation random seeds) were provided by the PE teaching faculty. The MIT License applies to the R analysis scripts, statistical transformations, ggplot2 visualizations, and Monte Carlo simulation routines.
+## Credits
+
+* **David Vasques** ([@DeastV](https://github.com/DeastV))
+* Individual coursework developed for Probabilidade e Estatística (PE) at Instituto Superior Técnico, Universidade de Lisboa. Benchmark datasets (`data/`) and parameter specifications provided by the teaching staff.
